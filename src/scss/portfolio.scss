@@ -1,0 +1,206 @@
+@import "./fonts.scss";
+
+
+$main-color:#0c0322;
+$main-font-color: rgb(255, 255, 255);
+$main-font: 'Sulphur-Regular', sans-serif;
+$nav-font-color: #333;
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: $main-font;
+    color: $main-font-color;
+    background: $main-color  ;
+    font-size: 14px;
+    transition: 1s all ease;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+// Portfolio header
+
+.header {
+    width: 100%;
+    display: block;
+    text-align: left;
+
+    &__back {    
+        margin: 0 40px;
+        padding: 10px;
+        display: inline-block;
+        cursor: pointer;
+        &:hover &-a::before{
+            margin-left: -5px;
+            margin-right: 10px;
+        }
+        &-a {
+            color: #fff;
+            font-size: 30px;
+            text-decoration: none;
+            &::before {
+                content: '←';
+                font-size: 25px;
+                margin: 0 5px;
+                transition: 1s all ease;
+            }
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    &__title {
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        &-h1 {
+            font-size: 50px;
+            animation: banner-title 1.2s ;
+            @media screen and (max-width: 567px){
+                font-size: 40px;
+            }
+        }
+        &::before {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            transform: translateX(201%);
+            content: '';
+            background: #fff;
+            animation: banner-title-bg 2s ;
+            animation-delay: .4s;
+        }
+    }
+}
+.banner {
+    width: 100%;
+    &-img {
+        width: 100%;
+    }
+}
+
+
+.description {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to bottom, $main-color 10%, #77699c ) ;
+    &__heading {
+        text-align: center;
+    }
+    &__text-wrap {
+        position: relative;
+        
+        
+        &>.container::before {
+            width: 50px;
+            height: 50px;
+            border-left: #fff 3px solid;
+            border-top: #fff 3px solid;
+            position: absolute;
+            top: -25px;
+            left: -10px;
+            opacity: 1;
+            content: '';
+        }
+        &>.container::after {
+            width: 50px;
+            height: 50px;
+            border-right: #fff 3px solid;
+            border-bottom: #fff 3px solid;
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+            opacity: 1;
+            content: '';
+        }
+    }
+    &__text-p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    &__link {
+        &-a {
+            margin: 20px;
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+@media screen and (max-width: 567px) {
+    height: auto;
+}
+}
+
+
+
+
+.footer {
+    height: 60vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    background: #77699c;
+    color: #fff;
+    font-size: 21px;
+    &__item {
+        transition: 1.5s all ease;
+        transition-delay: .5s;
+        @media screen and (max-width:567px){
+            padding: 15px 20px;
+        }
+    }
+    &__img {
+        position: absolute;
+        bottom: -100px;
+        width: 100%;
+        text-align: center;
+        transition: 1.5s ease all;
+        img {
+            
+            @media screen and (max-width: 567px){
+                width: 90%;
+            }
+        }
+    }
+    &.active {
+
+        .footer__img {
+            position: absolute;
+            bottom: -100px;
+            transform: translateY(0);
+            width: 100%;
+            text-align: center;
+        }
+        .footer__item {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    @media screen and (max-width:567px){
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 75vh;
+    }
+}
+
+@import "./animation.scss";

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/portfolio.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__back"><a class="header__back-a" href="/">Back to main</a></div>
+      <div class="container">
+        <div class="header__title">
+          <h1 class="header__title-h1">Сanon: frontend for action page</h1>
+        </div>
+      </div>
+    </header>
+    <section class="banner"> <img class="banner-img" src="" alt="" srcset=""/></section>
+    <section class="description" id="description">
+      <h2 class="description__heading">Project info</h2>
+      <div class="description__text-wrap">
+        <div class="container">
+          <p class="description__text-p">I started learning frontend on my own in September 2018. Mostly it was online courses, reading documentation and books description web development. In November 2018, I began to make the first orders for layout and development on Wordpress, and in March 2019 I got a job in an outsourcing web Studio for the development and promotion of sites to the position of frontend developer and Wordpress developer. I have experience in both web Studio and freelancing(upwork, fl.ru etc.). </p>
+        </div>
+      </div>
+      <div class="description__link"><a class="description__link-a" href="">Look this project</a></div>
+    </section>
+    <footer class="footer">
+      <div class="footer_slogan footer__item">creative. coding. style.</div>
+      <div class="footer__copyright footer__item">© Copyright 2019</div>
+      <div class="footer__contacts footer__item">furegfureg@gmail.com</div>
+      <div class="footer__img"><img class="footer__img-item" src="./images/down-img.png" alt="" srcset=""/></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $.ajax({
+          url: '/portfolio.json',
+          success: function(responce){
+          let i = localStorage.itemIndex;
+          $('.header__title-h1').text(responce[i].name)
+          $('.banner-img').attr('src', responce[i].banner);
+          console.log(responce[i])
+          }
+      });
+    </script>
+  </body>
+</html>
