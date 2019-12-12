@@ -5,6 +5,8 @@ let postcss = require('gulp-postcss');
 let rollup = require('rollup');
 let resolve = require('rollup-plugin-node-resolve');
 let babel = require('rollup-plugin-babel');
+let autoprefixer = require('gulp-autoprefixer');
+let deploy      = require('gulp-gh-pages');
 let browserSync = require('browser-sync').create();
 gulp.task('build:pug', () => {
   return gulp.src('src/pug/**.pug')
@@ -17,9 +19,9 @@ gulp.task('build:pug', () => {
 gulp.task('build:scss', () => {
   return gulp.src('src/scss/*.scss')
     .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer())
     .pipe(gulp.dest('build/css'));
 });
-
 gulp.task('build:js', () => {
   return rollup.rollup({
     input: 'src/js/main.js',
@@ -59,7 +61,10 @@ gulp.task('build', gulp.parallel(
   'build:images',
   'build:resources'
 ));
-
+gulp.task('deploy', function () {
+  return gulp.src("./build/**/*")
+    .pipe(deploy())
+});
 gulp.task('serve', () => {
   browserSync.init({
     server: {
