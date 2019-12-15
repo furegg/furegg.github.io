@@ -4,6 +4,12 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta property="og:image" content="./images/ogp.png"/>
+    <meta property="og:image:secure_url" content="./images/ogp.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="100px"/>
+    <meta property="og:image:height" content="100px"/>
+    <meta property="og:image:alt" content="Vadym Furik"/>
     <title>Vadym Furik - Portfolio</title>
     <link rel="stylesheet" href="css/main.css"/>
   </head>
@@ -17,9 +23,9 @@
           <div class="container"> 
             <ul class="header__nav-list">
               <li class="header__nav-item"> <a href="/">Main</a></li>
-              <li class="header__nav-item"> <a href="" data-href="1">About</a></li>
-              <li class="header__nav-item"> <a href="" data-href="2">Portfolio</a></li>
-              <li class="header__nav-item"> <a href="" data-href="3">Contacts</a></li>
+              <li class="header__nav-item"> <a href="#about" data-href="1">About</a></li>
+              <li class="header__nav-item"> <a href="#portfolio" data-href="2">Portfolio</a></li>
+              <li class="header__nav-item"> <a href="#footer" data-href="3">Contacts</a></li>
             </ul>
           </div>
         </nav>
@@ -53,7 +59,7 @@
           </div>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <h2 class="portfolio__title">My Portfolio</h2>
         <div class="container">
           <div class="portfolio__list">
@@ -109,7 +115,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="footer_slogan footer__item">creative. coding. style.</div>
       <div class="footer__copyright footer__item">© Copyright 2019</div>
       <div class="footer__contacts footer__item">furegfureg@gmail.com</div>

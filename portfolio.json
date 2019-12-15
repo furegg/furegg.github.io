@@ -2,7 +2,7 @@
     "1": {
         "banner": "./images/project-1.png",
         "name": "Сanon: frontend for action page",
-        "description": "PSD layout, adaptive and cross-browser, animation. A demo slider with animation showing advantages when hovering over them is made.Used technologies: webpack, pug, jquery,",
+        "description": "PSD layout, adaptive and cross-browser, animation. A demo slider with animation showing advantages when hovering over them is made. Used technologies: webpack, pug, jquery,",
         "link": "https://mycanon.canon.ru/promo/bts"
     },
     "2": {
@@ -14,19 +14,19 @@
     "3": {
         "banner": "./images/project-3.png",
         "name": "Starprint: frontend for a site for the production of packages",
-        "description": "Adaptive layout of the site for the production of packages for the company Starprint was performed. The same work has been done for the subdomain kalendari.starprint.pro used technologies: npm, gulp, sass, jquery, pug, bootstrap.",
+        "description": "Adaptive layout of the site for the production of packages for the company Starprint was performed. The same work has been done for the subdomain kalendari.starprint.pro. Used technologies: npm, gulp, sass, jquery, pug, bootstrap.",
         "link": "http://pakety.starprint.pro"
     },
     "4": {
         "banner": "./images/project-4.png",
         "name": "Starprint: frontend for a site for the production of calendars",
-        "description": "Adaptive layout of the site for the production of packages for the company Starprint was performed. The same work has been done for the subdomain kalendari.starprint.pro used technologies: npm, gulp, sass, jquery, pug, bootstrap.",
+        "description": "Adaptive layout of the site for the production of packages for the company Starprint was performed. The same work has been done for the subdomain kalendari.starprint.pro. Used technologies: npm, gulp, sass, jquery, pug, bootstrap.",
         "link": "http://kalendari.starprint.pro"
     },
     "5": {
         "banner": "./images/project-5.png",
         "name": "Make box: frontend for main page and development on Bitrix",
-        "description": "Была выполнена вёрстка главной страницы, интеграция темы в шаблон, создание шаблона типичных страниц услуг. Использовались такие технологии: npm, gulp, pug, sass, jquery, bootstrap, Bitrix CMS, PHP",
+        "description": "The layout of the main page, the integration of the theme into the template, the creation of a template of typical pages of services was performed. The following technologies were used: npm, gulp, pug, sass, jquery, bootstrap, Bitrix CMS, PHP",
         "link": "http://make-box.ru/"
     },
     "6": {

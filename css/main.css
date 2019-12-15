@@ -147,7 +147,8 @@ h3 {
       -webkit-transform: translateY(-500px);
               transform: translateY(-500px);
       -webkit-transition: 1.5s ease all;
-      transition: 1.5s ease all; }
+      transition: 1.5s ease all;
+      cursor: pointer; }
       .header__nav-item a {
         padding: 20px 10px;
         font-size: 16px;
