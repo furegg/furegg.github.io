@@ -2,49 +2,49 @@
     "1": {
         "banner": "./images/project-1.png",
         "name": "Сanon: frontend for action page",
-        "description": "",
+        "description": "PSD layout, adaptive and cross-browser, animation. A demo slider with animation showing advantages when hovering over them is made.Used technologies: webpack, pug, jquery,",
         "link": "https://mycanon.canon.ru/promo/bts"
     },
     "2": {
         "banner": "./images/project-2.png",
         "name": "Starprint: development on Wordpress",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "Development of a corporate website on a turnkey basis, development on the basis of the Wordpress theme. Its adaptation to customer requirements, optimization. Used technologies: html, css, php, CMS Wordpress, jquery.",
+        "link": "http://starprint.pro"
     },
     "3": {
         "banner": "./images/project-3.png",
         "name": "Starprint: frontend for a site for the production of packages",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "Adaptive layout of the site for the production of packages for the company Starprint was performed. The same work has been done for the subdomain kalendari.starprint.pro used technologies: npm, gulp, sass, jquery, pug, bootstrap.",
+        "link": "http://pakety.starprint.pro"
     },
     "4": {
         "banner": "./images/project-4.png",
         "name": "Starprint: frontend for a site for the production of calendars",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "Adaptive layout of the site for the production of packages for the company Starprint was performed. The same work has been done for the subdomain kalendari.starprint.pro used technologies: npm, gulp, sass, jquery, pug, bootstrap.",
+        "link": "http://kalendari.starprint.pro"
     },
     "5": {
         "banner": "./images/project-5.png",
         "name": "Make box: frontend for main page and development on Bitrix",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "Была выполнена вёрстка главной страницы, интеграция темы в шаблон, создание шаблона типичных страниц услуг. Использовались такие технологии: npm, gulp, pug, sass, jquery, bootstrap, Bitrix CMS, PHP",
+        "link": "http://make-box.ru/"
     },
     "6": {
        "banner": "./images/project-6.png",
         "name": "Prezident-prof: frontend for main page and development on Wordpress",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "The layout of the slider on the main page and its integration was performed. Creation of typical pages for all sections of the site, development on Wordpress theme, optimization of site loading speed. The following technologies were used: html, css, jquery, PHP, CMS Wordpress.",
+        "link": "http://prezident-prof.ru/"
     },
     "7": {
         "banner": "./images/project-7.png",
         "name": "Detdefence: design and frontend for main page, development on Wordpress ",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "Design development, layout of the main page, creation of templates for pages of services and integration with CMS Wordpress was carried out. The following technologies were used: html, css, jquery and its plugins, Figma",
+        "link": "https://detdefense.com.ua/"
     },
     "8": {
         "banner": "./images/project-8.png",
         "name": "Snikpic: frontend for all site, contact form integration with Google Sheets",
-        "description": "",
-        "link": "https://mycanon.canon.ru/promo/bts"
+        "description": "I was tasked with developing the front end of the site, animating page elements, optimizing and integrating the form with Google Sheets. The following technologies were used: npm, gulp, jquery and its plugins, html, css, svg, Google sheets, ajax.",
+        "link": "http://snikpic.io/"
     }
 }
