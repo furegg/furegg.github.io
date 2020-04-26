@@ -44,6 +44,24 @@
     "8": {
         "banner": "./images/project-8.png",
         "name": "Snikpic: frontend for all site, contact form integration with Google Sheets",
+        "description": "I was tasked with developing the front end of the site, animating page elements, optimizing and integrating the form with Google Sheets. The following technologies were used: npm, gulp, jquery and it's plugins, html, css, svg, Google sheets, ajax.",
+        "link": "http://snikpic.io/"
+    },
+    "9": {
+        "banner": "./images/project-9.png",
+        "name": "Maximum+: frontend for all site, integration with CMS Wordpress",
+        "description": "I was tasked with developing the front end of the site, animating page elements, optimizing and integrating website with Wordpress. The following technologies were used: npm, gulp, jquery and it's plugins, pug, sass, CMS Wordpress",
+        "link": "https://maksimum-plus.ru/"
+    },
+    "10": {
+        "banner": "./images/project-10.png",
+        "name": "Green sad: frontend for all site, contact form integration with Google Sheets",
+        "description": "I was tasked with developing the front end of the site, animating page elements, optimizing and integrating the form with Google Sheets. The following technologies were used: npm, gulp, jquery and its plugins, html, css, svg, Google sheets, ajax.",
+        "link": "http://snikpic.io/"
+    },
+    "11": {
+        "banner": "./images/project-11.png",
+        "name": "Snikpic: frontend for all site, contact form integration with Google Sheets",
         "description": "I was tasked with developing the front end of the site, animating page elements, optimizing and integrating the form with Google Sheets. The following technologies were used: npm, gulp, jquery and its plugins, html, css, svg, Google sheets, ajax.",
         "link": "http://snikpic.io/"
     }

@@ -12,6 +12,8 @@
   const headerHeight = headerTop.offsetHeight;
   const portfolioItem = document.querySelectorAll('.portfolio__list-item');
   let i = 0;
+  window.scrollY = 0;
+  window.pageYOffset = 0;
 
   const openMenu = event => {
     if (navMenu.classList == 'header__nav active') {
